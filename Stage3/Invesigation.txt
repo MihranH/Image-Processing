@@ -1,0 +1,2 @@
+I decided to do and test lips detection. I have come up with simple solution, not so accurate but pretty working one for many frontal images. 
+The logic is that lips have redish color and I have tested and seen that red is more than 2.3 times green and blue(not considering highly non standard behaviours). By checking the positions in the image and the color I am leaving only that part and whitening the rest of the image.

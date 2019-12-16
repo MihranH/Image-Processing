@@ -17,8 +17,8 @@ public abstract class Moment implements PlugInFilter {
 		return Mpq;
 	}
 	public void run(ImageProcessor I) {
-		double moment = this.moment(I, 1, 1);
-		IJ.log("The moment is " + moment);
+		double moment = moment(I, 1, 1);
+		IJ.log("The moment is " + this.moment);
 	}
 	
 }

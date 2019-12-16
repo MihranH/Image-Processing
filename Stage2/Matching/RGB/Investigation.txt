@@ -1,0 +1,2 @@
+The results were better visible on cropped images and thus the testing are done for them. 
+Some images clearly have the standard and non-standard behaviour with the characteristics stated in the requirements, however not all layers of the same image exhibit the stated behaviour thats why some layers are done to specific images and other layers are tested for other more convenient images.
